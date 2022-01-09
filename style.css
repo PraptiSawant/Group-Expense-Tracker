@@ -1,0 +1,293 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('photos/bg.png');
+    font-family: 'Poppins',sans-serif;
+    background-position: center;
+}
+.container{
+    position: relative;
+    width: 75%;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-shadow: 0 12px 12px rgba(0,0,0,.5);
+    background-color: #ffffff;
+}
+.container .left{
+    float: left;
+    width: 50%;
+    height: 550px;
+    background-image: url('photos/lgin.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins',sans-serif;
+}
+.slogan1 p{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-bottom: 2px solid #ffffff;
+    width:165px;
+}
+.slogan2 {
+    padding-top: 150px;
+    color:#ffffff;
+}
+.container .right{
+    float: right;
+    width: 50%;
+    height: 550px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.formbx{
+    width: 100%;
+    padding: 20px 80px;
+    box-sizing: border-box;
+    height: 550px;
+}
+.formbx p{
+    margin: 0;
+    padding:0;
+    font-weight: lighter;
+    color:gray;
+}
+.formbx h4{
+    color:#bf1922;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #262626;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+.formbx input{
+    width:100%;
+    margin-bottom: 20px;
+}
+.formbx input[type="text"],
+.formbx input[type="password"]
+{
+    border:none;
+    border-bottom: 1px solid #000000;
+    outline:none;
+    height: 20px;
+}
+.formbx input[type="text"]:focus,
+.formbx input[type="password"]:focus{
+    border-bottom: 2px solid #262626;
+    font-family: 'Poppins';
+}
+.formbx input[type="submit"]
+{
+    border:none;
+    outline: none;
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    background: transparent;
+    border-radius:30px;
+    margin-top: 10px;
+    font-family: 'Poppins',sans-serif;
+    background-color: #800000;
+    color:white;
+}
+.formbx input[type="submit"]:hover{
+    background-color:#000000;
+}
+.cards{
+    width: 20%;
+    display:inline-block;
+    background-color:white;
+    border-radius: 10px;
+    margin:40px;
+    box-shadow: 2px 2px 10px black;
+}
+.cards:hover{
+    box-shadow: 2px 2px 10px black;
+}
+.image{
+    text-align: center;
+}
+.image img{
+    width:90%;
+    border-radius: 10px;
+    margin: 10px;
+}
+.title{
+    text-align: center;
+}
+.b{
+    text-align: center;
+}
+.b button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.b button:hover{
+    background-color: yellow;
+    color: yellowgreen;
+    transition: 0.5s;
+}
+a, button{
+    font-size: 16px;
+    color: sienna;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 5%;
+    background-color: slategrey;
+    height: 37px;
+}
+.logo{
+    width:80px;
+    height:40px;
+    background-color: snow;
+    margin-right: 10px;
+}
+button{
+    padding :9px 25px;
+    background-color: springgreen;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+button:hover{
+    background-color: teal;
+}
+.AddGrp{
+    width: 100%;
+    padding: 80px 100px;
+    box-sizing: border-box;
+    height: 100%px;
+    background:white;
+    align-content: center;
+}
+.AddGrp p{
+    margin:0;
+    height:10px;
+    font-weight: lighter;
+    color:gray;
+    padding-bottom: 20px;
+}
+.AddGrp input{
+    width:100%;
+    margin-bottom: 20px;
+}
+.AddGrp input[type="text"],
+.AddGrp input[type="number"]
+{
+    border:none;
+    border-bottom: 2px solid #bf1922;
+    outline:none;
+    height: 40px;
+    font-family: 'Poppins',sans-serif;
+}
+.AddGrp input[type="text"]:focus,
+.AddGrp input[type="number"]:focus{
+    border-bottom: 2px solid #bf1922;
+}
+.AddGrp input[type="submit"]
+{
+    font-family: 'Poppins',sans-serif;
+    width: 50%;
+    padding: 10px 20px;
+    margin-left: 200px;
+    font-weight: 400;
+    border: none;
+    font-size: 16px;
+    border-radius:30px;
+    margin-top: 40px;
+    background-color: #800000;
+    color:#ffffff;   
+}
+.AddGrp input[type="submit"]:hover{
+    background-color:#000000;
+}
+.Member{
+    position: relative;
+    width: 75%;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-shadow: 0 12px 12px rgba(0,0,0,.5);
+    background-color: #ffffff;
+    background-repeat: repeat;
+}
+.AddExp{
+    width: 100%;
+    padding: 80px 100px;
+    box-sizing: border-box;
+    height: 100%px;
+    background:white;
+    align-content: center;
+}
+.AddExp p{
+    margin:0;
+    height:10px;
+    font-weight: lighter;
+    color:gray;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.AddExp input{
+    width:100%;
+    margin-bottom: 10px;
+}
+.AddExp input[type="number"]
+{
+    border:none;
+    border-bottom: 2px solid #bf1922;
+    outline:none;
+    height: 20px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.AddExp input[type="number"]:focus{
+    border-bottom: 2px solid #bf1922;
+}
+.AddExp input[type="submit"]
+{
+    font-family: 'Poppins',sans-serif;
+    width: 20%;
+    padding: 10px 20px;
+    margin-left: 150px;
+    font-weight: 400;
+    border: none;
+    font-size: 16px;
+    border-radius:30px;
+    background-color: indianred;
+    margin-top: 50px;
+    background-color: #800000;
+    color:#ffffff; 
+    display: inline-block;
+}
+.AddExp input[type="submit"]:hover{
+    background-color:#000000;
+}
+.category select{
+    background-color: white;
+    font-family: 'Poppins',sans-serif;
+    width:150px;
+    height:32px;
+    border-radius: 10px;
+}
+.name select{
+    background-color: white;
+    font-family: 'Poppins',sans-serif;
+    width:150px;
+    height:32px;
+    border-radius: 10px;
+}
